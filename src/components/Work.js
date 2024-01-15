@@ -15,7 +15,6 @@ export default function Work() {
                 <div className="flex flex-wrap -m-4">
                     {work.map((work) => (
                         <a
-                            href={work.link}
                             key={work.name}
                             className="sm:w-1/2 w-100 p-4">
                             <div className="flex sticky">

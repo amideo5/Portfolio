@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "Calculator App Demo",
+    subtitle: "Flutter/Dart",
+    description:
+      "calculator application using Flutter and Dart, enabling users to perform calculations seamlessly while providing a convenient in-app storage feature for saving and revisiting personalized calculations.",
+    link: "https://github.com/amideo5/calculator_app_demo",
+  },
+  {
     title: "Inventory Management",
     subtitle: "Spring Boot",
     description:
@@ -49,11 +56,11 @@ export const projects = [
     link: "https://github.com/amideo5/Weather-Application",
   },
   {
-    title: "Doctor Appointment System",
-    subtitle: "Spring Boot",
+    title: "Book Store Search Application",
+    subtitle: "Node.js and ElastiSearch",
     description:
-      "The Doctor Appointment backend developed in Spring Boot efficiently manages appointments by providing RESTful APIs. It incorporates robust data storage, handles appointment scheduling, and ensures secure communication. ",
-    link: "https://github.com/amideo5/Spring-Boot-Appointment",
+      "The Book Store Project is a comprehensive search application that seamlessly integrates Elasticsearch and MongoDB databases. With Elasticsearch, it efficiently indexes and retrieves book-related data, while MongoDB serves as a robust backend for storing collections and databases. The frontend, powered by React.js, ensures a smooth user experience, making it a user-friendly and dynamic platform for exploring and discovering diverse literary content.",
+    link: "https://github.com/amideo5/Book_Store_Project",
   },
   {
     title: "Linux Device Driver for Printer",

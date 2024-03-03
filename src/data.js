@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "Vuforia AR Application",
+    subtitle: "Flutter/Dart, Spring Boot, SQL, Vuforia, Unity",
+    description:
+      "This AR app brings objects to life! It uses Flutter for a smooth user interface, Spring for robust backend functionality, and a SQL database for data storage. Vuforia SDK and Unity seamlessly integrate AR experiences, allowing to view and interact with digital content overlaid on the real world through your phone's camera.",
+    link: "https://github.com/amideo5/Vuforia-AR-App",
+  },
+  {
     title: "Calculator App Demo",
     subtitle: "Flutter/Dart",
     description:
@@ -8,21 +15,21 @@ export const projects = [
   },
   {
     title: "Inventory Management",
-    subtitle: "Spring Boot",
+    subtitle: "Spring Boot, MongoDB",
     description:
       "The Inventory Management Spring Boot backend is a Java-based web application framework that provides robust backend support for efficiently tracking and managing inventory levels, facilitating seamless interactions between the database and frontend.",
     link: "https://github.com/amideo5/spring-boot-inventory-management",
   },
   {
     title: "Food Order Application",
-    subtitle: "Java Full Stack(React.js and Spring Boot)",
+    subtitle: "React.js, Spring Boot, MongoDB",
     description:
       "The food order application combines a dynamic React frontend with a reliable Spring Boot backend, enabling users to browse and place food orders seamlessly. Data is stored and managed in a MongoDB database, ensuring efficient retrieval and storage of order information for a smooth user experience.",
     link: "https://github.com/amideo5/Food-Order-App",
   },
   {
     title: "E-Wallet Application",
-    subtitle: "Java Full Stack(React.js and Spring Boot)",
+    subtitle: "React.js, Spring Boot, MongoDB",
     description:
       "The e-wallet application combines a user-friendly React frontend with a secure Spring Boot backend, leveraging MongoDB for efficient data storage. This seamless integration enables users to manage their electronic funds with ease, while ensuring robust backend support for transactions and account management.",
     link: "https://github.com/amideo5/E-wallet-App",
@@ -43,28 +50,28 @@ export const projects = [
   },
   {
     title: "Data Visualisation",
-    subtitle: "JS Frameworks(React.js and Express.js)",
+    subtitle: "React.js, Express.js, CSV Parser, Charts.js",
     description:
       "The data visualization application combines a React frontend with an Express backend to dynamically render insights from a CSV file. It leverages React's interactive UI components and Express' server capabilities to provide a user-friendly interface for exploring and analyzing data in a visually appealing manner.",
     link: "https://github.com/amideo5/Data-Visualization-Charts",
   },
   {
     title: "Weather Application",
-    subtitle: "Java Full Stack(React.js and Spring Boot)",
+    subtitle: "React.js, Spring Boot, Open Weather Map API",
     description:
       "The Weather application combines the versatility of Spring Boot for backend development with the dynamic user interface of React for the frontend. Leveraging the RESTful architecture, it fetches real-time weather data and presents it in an intuitive and responsive web interface. This seamless integration of Spring Boot and React provides a modern and efficient solution for users to stay updated on weather conditions.",
     link: "https://github.com/amideo5/Weather-Application",
   },
   {
     title: "Book Store Search Application",
-    subtitle: "Node.js and ElastiSearch",
+    subtitle: "Node.js, ElastiSearch, MongoDB",
     description:
       "The Book Store Project is a comprehensive search application that seamlessly integrates Elasticsearch and MongoDB databases. With Elasticsearch, it efficiently indexes and retrieves book-related data, while MongoDB serves as a robust backend for storing collections and databases. The frontend, powered by React.js, ensures a smooth user experience, making it a user-friendly and dynamic platform for exploring and discovering diverse literary content.",
     link: "https://github.com/amideo5/Book_Store_Project",
   },
   {
     title: "Linux Device Driver for Printer",
-    subtitle: "Linux Fundamentals and C Programming",
+    subtitle: "Linux Fundamentals, C Programming",
     description:
       "The purpose of this work is to develop a Linux kernel driver to control the operation of printer device.",
     link: "https://github.com/amideo5/MajorProject",
@@ -91,7 +98,7 @@ export const education = [
 
 export const work = [
   {
-    quote: "Technology Worked On : Flutter, Dart, Wikitude Augmented Reality. I worked on a Flutter stack project using Wikitude library for AR to augment videos, images and content. Single handedly developed the UI components and integrated the application with the backend and the wikitude AR.js library using API calls",
+    quote: "Technology Worked On : Flutter, Dart, Wikitude AR, Vuforia AR, Unity 3D. I worked on a Flutter stack project using Wikitude library for AR to augment videos, images and content. Single handedly developed the UI components and integrated the application with the backend and the wikitude AR.js library using API calls",
     link: "",
     name: "Full Stack Developer",
     company: "Cocotechoes",
@@ -125,6 +132,10 @@ export const skills = [
   "Bootstrap",
   "JavaScript",
   "HTML5",
+  "Unity 3D",
+  "Unity C# Scripting",
+  "Wikitude AR SDK",
+  "Vuforia AR SDK",
   "CSS",
   "Data Structures",
   "Networking",

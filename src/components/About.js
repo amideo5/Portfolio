@@ -12,17 +12,18 @@ export default function About() {
                         A passionate Software Developer based in Pune, India. With a strong foundation in Computer Science and Engineering, I've been diving deep into the world of technology and software development.
 
                     </p>
-                    <div className="flex justify-center">
+                    {/* <div className="flex justify-center">
                         <a
-                            href="https://drive.google.com/file/d/1o6UnjuV7q3pACuDZsMbFEFcPD2Kaw0Wz/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1156Dt8AWd28dB5K04c1ZIoBqUootGyqI/view?usp=sharing"
                             className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
                             My Resume
                         </a>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                     <img
                         className="object-cover object-center rounded"
+                        style={{ borderRadius: '100%' }}
                         alt="hero"
                         src="./Display.jpg"
                     />

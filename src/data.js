@@ -80,7 +80,7 @@ export const projects = [
 
 export const education = [
   {
-    quote: "CGPA : 7.89",
+    quote: "CGPA : 7.98",
     name: "Bachelors of Engineering - Computer Science",
     company: "SDM College of Engineering and Technology, Dharwad",
   },
@@ -98,39 +98,58 @@ export const education = [
 
 export const work = [
   {
-    quote: "Technology Worked On : Flutter, Dart, Wikitude AR, Vuforia AR, Unity 3D. I worked on a Flutter stack project using Wikitude library for AR to augment videos, images and content. Single handedly developed the UI components and integrated the application with the backend and the wikitude AR.js library using API calls",
+    quote: "I worked on Universal Med Supply, an in-house platform for managing DME insurance claims, order tracking, and patient interactions for large healthcare providers. My role involved maintaining and optimizing the existing web application by resolving issues, implementing minor feature enhancements, and improving performance through eliminating duplicate queries, adding database indexes, and using Eloquent eager loading—particularly within the insurance claim modules. I also contributed to the development of a Flutter-based mobile application for delivery personnel, replicating key web functionalities such as order lookup, delivery confirmation, and patient verification. Additionally, I supported integrations with external insurance validation APIs and internal notification systems, ensuring smooth backend–frontend data flow. My work included participating in code reviews, testing cycles, and documentation to uphold HIPAA compliance and ensure long-term maintainability.",
     link: "",
-    name: "Full Stack Developer",
-    company: "Cocotechoes",
-    text: "November 2023 - Present",
+    name: "Software Engineer",
+    company: "Infimed Solutions",
+    text: "May 2025 - Present",
   },
   {
-    quote: "Technology Worked on : Java, Spring Boot, MongoDB, React. I developed a full stack project on E-Wallet application and Food Ordering application. I also developed features for near-caching the application startup and fixed bugs related to UI and backend. I was part of an internal project related to sourcing customer orders in promise time using various micro services.",
+    quote: "I developed a Flutter application with advanced AR features using Wikitude, integrating back-end services for a seamless experience and deploying it to the Google Play Store. Later, I built an enhanced version using the Vuforia AR SDK and Unity3D, implementing Unity scripting for smooth Flutter–Unity communication. I also created a voice analysis system in Python and Machine Learning with 93.5% accuracy, using data augmentation and feature extraction techniques, integrated into a Flask web app with a real-time API, deployed on GCP, and extended with a Chrome extension for real-time meeting analysis. Additionally, I contributed to a personality profiling module based on the Enneagram test. On the web development side, I developed a full-featured adventure travel website using Laravel 11.31 and PHP 8.2 with a custom admin panel, Laravel Sanctum authentication, RESTful APIs, Blade templates, SQL migrations, file storage integration, and a responsive UI, deployed to shared hosting. I also built a Laravel-based student assistance portal with global reach, integrating a HubSpot chatbot for automated support and real-time assistance.",
+    link: "",
+    name: "Software Engineer",
+    company: "CocoTechoes Solutions",
+    text: "November 2023 - April 2025",
+  },
+  {
+    quote: "I founded and led a freelance software initiative, successfully delivering three concurrent client projects in the e-commerce, travel, and fintech domains. This included developing a full-featured e-commerce perfume website using Laravel Blade for the UI, Laravel Sanctum for authentication, and integrating the Cashfree Payment Gateway; building a responsive, SEO-friendly travel agency website with package listings, inquiry forms, and an admin content management system; and engineering a secure transaction management desktop application for a national bank union, initially built with Flask (Python) and packaged using PyInstaller. I independently handled client communication, requirement gathering, development, and deployment, ensuring all projects were delivered within scope, on time, and to client satisfaction.",
+    link: "",
+    name: "Software Engineer",
+    company: "Embrise Solutions",
+    text: "August 2023 - October 2023",
+  },
+  {
+    quote: "During training, I developed E-Wallet and Food Ordering applications as POC projects using Spring Boot (Java) and React.js. I then transitioned to a live project aimed at optimizing customer order sourcing through a microservice architecture, improving scalability and efficiency. To enhance performance, I implemented near-caching at application startup and resolved various UI and backend bugs, ensuring stability and a seamless user experience. Throughout the process, I collaborated in an agile team environment to deliver high-quality, production-ready software solutions.",
     link: "",
     name: "Associate Software Engineer- Intern",
     company: "Nextuple India Pvt. Ltd.",
     text: "February 2023 - July 2023",
   },
-  {
-    quote: "Technology Worked on : AWS, Terraform and Ansible scripts. I learnt to work with AWS instances and run scripts to automate tasks on a remote server.",
-    link: "",
-    name: "DevOps Engineer Trainee",
-    company: "Pearlthoughts",
-    text: "August 2023 - September 2023",
-  },
 ];
 
 export const skills = [
-  "C",
-  "C++",
   "Java",
   "Dart",
   "Flutter",
   "Spring Boot",
   "React.js",
   "MongoDB",
+  "Zend",
+  "Laminas",
+  "jQuery",
+  "JavaServer Pages (JSP)",
+  "MariaDB",
+  "Pyinstaller",
+  "Google Cloud Platform (GCP)",
+  "Python",
+  "SQL",
+  "Flask",
+  "PHP",
+  "Laravel",
   "Bootstrap",
   "JavaScript",
+  "C",
+  "C++",
   "HTML5",
   "Unity 3D",
   "Unity C# Scripting",
@@ -139,4 +158,5 @@ export const skills = [
   "CSS",
   "Data Structures",
   "Networking",
+  "Machine Learning",
 ];

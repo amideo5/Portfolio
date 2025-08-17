@@ -9,7 +9,7 @@ export default function About() {
                         Hey there! I'm Aryan Trivedi.
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        A passionate Software Developer based in Pune, India. With a strong foundation in Computer Science and Engineering, I've been diving deep into the world of technology and software development.
+                        A passionate Software Developer based in Bangalore, India. 
 
                     </p>
                     {/* <div className="flex justify-center">
